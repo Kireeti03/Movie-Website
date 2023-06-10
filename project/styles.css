@@ -1,3 +1,6 @@
+body {
+        background-color: black;
+}
 .container {
     text-align: center;
 }
@@ -5,9 +8,10 @@
 .title {
     text-align: left;
     font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
     margin-right: 100px;
+    color:rgb(17, 154, 222)
 }
 
 .search-container {
@@ -15,6 +19,7 @@
     margin-bottom: 20px;
     display: inline-block;
     margin-left: 200px;
+    color:bisque;
 
 }
 
@@ -24,8 +29,8 @@
     font-size: 16px;
     vertical-align: middle;
     border-radius: 40px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 
@@ -91,11 +96,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+    background-color: grey;
+    border-radius: 10px;
     text-align: left;
+    font-family: sans-serif;
+    color: black;
 }
 
 #movieDetails img {
