@@ -1,4 +1,4 @@
-const API_KEY = 'b2bfc224056fba52f4c4fe8b9e2c3384';
+const API_KEY = 'f9e79f513809dac8f58e4b37719c51a9';
 
 
 function fetchMovieData(searchQuery = '') {
